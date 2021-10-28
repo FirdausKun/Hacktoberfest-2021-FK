@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>data kelas</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+        body{
+            font-family: 'Open Sans', sans-serif;
+            display: flex;
+            justify-content: center;
+        }
+        h3{
+            text-align: center;
+        }
+        table, th, td{
+            border-collapse: collapse;
+        }
+        table{
+            background-color: white;
+            border-radius: 8px;
+        }
+        th{
+            background: rgb(225, 225, 225);
+        }
+        th,td{
+            padding: 10px;
+            border-bottom: .5px solid rgb(197, 197, 197);
+            cursor: pointer;
+        }
+        tr{
+            transition: ease-in-out .2s;
+        }
+        tr:hover{
+            background: rgb(225, 225, 225);
+        }
+        button{
+            cursor: pointer;
+        }
+        div{
+            background-color: rgb(168, 230, 255);
+            padding: 30px;
+            padding-top: 5px;
+            border: .5px solid rgb(168, 230, 255);
+            border-radius: 8px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h3>Data Kelas</h3>
+        <table>
+            <tr>
+                <th style="border-radius: 8px 0 0 0;">No</th>
+                <th>Kelas</th>
+                <th>Prodi</th>
+                <th>Semester</th>
+                <th style="border-radius: 0 8px 0 0;">
+                    Action
+                </th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>C1</td>
+                <td>Ilmu Komputer</td>
+                <td>5</td>
+                <td>
+                    <a href="#">
+                        <button>Detail</button>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>C2</td>
+                <td>Ilmu Komputer</td>
+                <td>5</td>
+                <td>
+                    <a href="#">
+                        <button>Detail</button>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>C3</td>
+                <td>Ilmu Komputer</td>
+                <td>5</td>
+                <td>
+                    <a href="#">
+                        <button>Detail</button>
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
